@@ -1,7 +1,8 @@
 # strong
-STRONG - One Page site, of strong female movie characters (Web Responsive: Desktop, Tablet, Mobile)
+STRONG - Sitio de una página sobre personajes femeninos fuerte del cine. (One Page site, of strong female movie characters) 
+Web Responsive: Desktop, Tablet, Mobile.
  
- Mockup web: https://www.behance.net/gallery/46971041/Strong-(Web-Desktop-Mobile)
+ Maqueta/Mockup web: https://www.behance.net/gallery/46971041/Strong-(Web-Desktop-Mobile)
 
 
-*Please install Futura font*
+*Por favor instalar la fuente Futura (Please install Futura font)*
