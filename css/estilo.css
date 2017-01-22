@@ -1,0 +1,940 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:700|Source+Sans+Pro:600,900';
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+strong {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  padding: 30px;
+}
+
+header {
+  height: 655px;
+  background-image: url(../img/rey.jpg);
+  background-size: cover;
+  background-position: center top;
+  color: #fff;
+  margin: 0 auto;
+}
+
+header .transparencia {
+  height: 655px;
+  background-color: hsla(187,100%,35%,0.4);
+}
+
+header h1, .strong-grande1 p, .strong-grande2 p, .strong-grande3 p, .strong-mini4 p, .strong-mini5 p, .strong-mini6 p {
+  font-size: 150px;
+  font-family: "Futura", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 30px;
+  margin-bottom: 50px;
+}
+
+header p {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header p strong {
+  font-size: 36px;
+}
+
+.proposito {
+  background-color: #5248C4;
+}
+
+.proposito .container {
+  height: 565px;
+}
+
+.proposito h2 {
+  background-color: #4646AA;
+}
+
+.proposito h3, .difundir h3, .fuerte h3 {
+  color: #fff;
+  font-size: 46px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.proposito p, .difundir p, .fuerte p {
+  color: #E6E6E6;
+  font-size: 32px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.proposito p {
+  width: 280px;
+}
+
+.caja {
+  display: flex;
+}
+
+.proposito .honrar, .proposito .grandeza {
+  flex: 1;
+}
+
+.linea {
+  border-left: 2px solid #fff;
+  height: 300px;
+  margin-top: 150px;
+}
+
+.center {
+  text-align: center;
+}
+
+.proposito .honrar img, .proposito .grandeza img {
+  width: 115px;
+  height: 115px;
+  margin-top: 90px;
+  margin-bottom: -20px;
+}
+
+.strong-grande1, .strong-grande2, .strong-grande3 {
+  height: 735px;
+  background-size: cover;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+}
+
+.strong-grande1 {
+  background-image: url(../img/daenerys.jpg);
+}
+
+.strong-grande1 p, .strong-grande2 p, .strong-grande3 p {
+  color: #fff;
+  font-size: 150px;
+  padding: 10px 0 10px 0;
+  margin: 0;
+  flex: 1;
+  margin-bottom: 50px;
+}
+
+.strong-grande1 p {
+  background-color: hsla(334,93%,40%,0.4);
+}
+
+.pink {
+  background-color: hsl(327,100%,38%);
+  color: #fff;
+}
+
+.pink .avatar, .red .avatar, .green .avatar {
+  width: 240px;
+  height: 240px;
+  border: 10px solid #fff;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.pink .avatar img {
+  width: 300px;
+  position: relative;
+  left: -25px;
+}
+
+.pink h4, .red h4, .green h4 {
+  font-size: 34px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: -20px;
+}
+
+.pink h5, .red h5, .green h5 {
+  font-size: 24px;
+  color: #D5D5D5;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.pink p, .red p, .green p {
+  font-size: 34px;
+  text-align: center;
+  max-width: 1100px;
+  position: relative;
+  top: -80px;
+  margin: auto;
+}
+
+.pink .quote, .red .quote, .green .quote {
+  width: 118px;
+  height: 103px;
+  position: relative;
+  left: 30px;
+}
+
+.pink .cita, .red .cita, .green .cita {
+  text-align: right;
+  margin-top: 40px;
+  margin-bottom: -30px;
+}
+
+.pink .cita small, .pink small strong, .red .cita small, .red small strong, .green .cita small, .green small strong {
+  font-size: 24px;
+  color: #313142;
+}
+
+.mitad {
+  max-width: 600px;
+}
+
+.mitad2 {
+  display: flex;
+  color: #fff;
+  height: 340px;
+}
+
+.uma {
+  background-color: hsl(55,94%,44%);
+}
+
+.charlize {
+  background-color: hsl(256,45%,49%);
+}
+
+.strong-mini1, .strong-mini2 {
+  height: 330px;
+}
+
+.strong-mini1, .strong-mini2, .strong-mini3, .strong-mini4, .strong-mini5, .strong-mini6 {
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
+
+.strong-mini1 p, .strong-mini2 p, .strong-mini3 p, .strong-mini4 p, .strong-mini5 p, .strong-mini6 p {
+  margin: 0;
+  flex: 1;
+  margin-bottom: 30px;
+}
+
+.strong-mini1 {
+  background-image: url(../img/beatrix.jpg);
+  background-position: center;
+}
+
+.strong-mini1 p, .strong-mini2 p, .strong-mini3 p, .strong-mini4 p, .strong-mini5 p, .strong-mini6 p {
+  color: #fff;
+  font-size: 75px;
+  font-family: "Futura", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 30px;
+  padding: 10px 0 10px 20px;
+}
+
+.strong-mini1 p {
+  background-color: hsla(56,100%,41%,0.4);
+}
+
+.strong-mini2 {
+  background-image: url(../img/furiosa.jpg);
+  background-position: center;
+}
+
+.strong-mini2 p {
+  background-color: hsla(256,100%,41%,0.4);
+}
+
+.perfil {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.derecha {
+  flex: 2;
+}
+
+.derecha img {
+  width: 52px;
+  height: 45px;
+  position: relative;
+  top: 100px;
+}
+
+.derecha p {
+  font-size: 18px;
+  margin: 60px 20px 0 20px;
+  text-align: center;
+  position: relative;
+}
+
+.derecha p strong {
+  font-size: 24px;
+}
+
+.derecha .cita small, .derecha .cita small strong {
+  font-size: 14px;
+  color: #313142;
+}
+
+.derecha .cita {
+  text-align: right;
+}
+
+.perfil .avatar2 {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 7px solid #fff;
+  margin-top: 20px;
+}
+
+.perfil .avatar2 img {
+  position: relative;
+}
+
+.uma .perfil .avatar2 img {
+  width: 210px;
+  left: -65px;
+  top: -20px;
+}
+
+.uma .derecha .cita {
+  margin-top: 30px;
+}
+
+.charlize .perfil .avatar2 img {
+  width: 270px;
+  left: -70px;
+  top: 0px;
+}
+
+.charlize .derecha .cita {
+  margin-top: 55px;
+}
+
+.mitad2 h4 {
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.mitad2 h5 {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #D5D5D5;
+  text-align: center;
+}
+
+.extendido {
+  display: flex;
+}
+
+.caja-extendida1 {
+  background-color: hsl(55,94%,44%);
+  flex: 1;
+}
+
+.caja-extendida2 {
+  background-color: hsl(256,45%,49%);
+  flex: 1;
+}
+
+.difundir {
+  background-color: #11B497;
+}
+
+.difundir .container {
+  height: 550px;
+}
+
+.difundir h2, .proposito h2, .fuerte h2 {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin: 0;
+  padding: 30px;
+}
+
+.difundir h2 {
+  background-color: #149D81;
+}
+
+.difundir p {
+  max-width: 1000px;
+}
+
+.difundir p strong {
+  font-size: 32px;
+}
+
+.difundir img {
+  width: 132px;
+  height: 132px;
+  margin-top: 90px;
+}
+
+.strong-grande2 {
+  background-image: url(../img/wonder.jpg);
+}
+
+.strong-grande2 p {
+  background-color: hsla(2,100%,40%,0.4);
+}
+
+.red {
+  background-color: hsl(0,100%,40%);
+  color: #fff;
+}
+
+.red .avatar img {
+  width: 300px;
+  position: relative;
+  left: -25px;
+}
+
+.strong-mini3, .strong-mini4 {
+  height: 330px;
+}
+
+.strong-mini3 {
+  background-image: url(../img/ripley.jpg);
+  background-position: center;
+}
+
+.strong-mini3 p {
+  background-color: hsla(213,100%,41%,0.4);
+}
+
+.strong-mini4 {
+  background-image: url(../img/katniss.jpg);
+  background-position: top;
+}
+
+.strong-mini4 p {
+  background-color: hsla(33,100%,50%,0.4);
+}
+
+.caja-extendida3 {
+  background-color: hsl(210,94%,40%);
+  flex: 1;
+}
+
+.caja-extendida4 {
+  background-color: hsl(33,100%,48%);
+  flex: 1;
+}
+
+.sigourney .perfil .avatar2 img {
+  width: 190px;
+  left: -45px;
+  top: -30px;
+}
+
+.sigourney .derecha .cita {
+  margin-top: 30px;
+}
+
+.jennifer .perfil .avatar2 img {
+  width: 200px;
+  left: -30px;
+  top: -15px;
+}
+
+.jennifer .derecha .cita {
+  margin-top: 30px;
+}
+
+.sigourney {
+  background-color: hsl(210,94%,40%);
+}
+
+.jennifer {
+  background-color: hsl(33,100%,48%);
+}
+
+/* MENSAJE FUERTE */
+
+.fuerte {
+  background-color: #5248C4;
+}
+
+.fuerte .container {
+  height: 550px;
+}
+
+.fuerte h2 {
+  background-color: #4646AA;
+}
+
+.fuerte p {
+  max-width: 1000px;
+}
+
+.fuerte p strong {
+  font-size: 32px;
+}
+
+.fuerte img {
+  width: 178px;
+  height: 122px;
+  margin-top: 90px;
+}
+
+/* AFICHE GRANDE */
+
+.strong-grande3 {
+  background-image: url(../img/rey.jpg);
+}
+
+.strong-grande3 p {
+  background-color: hsla(187,100%,40%,0.4);
+}
+
+.green {
+  background-color: hsl(187,100%,40%);
+  color: #fff;
+}
+
+.green .avatar img {
+  width: 250px;
+  position: relative;
+  left: 0px;
+  top: -50px;
+}
+
+.strong-mini5, .strong-mini6 {
+  height: 330px;
+}
+
+.strong-mini5 {
+  background-image: url(../img/neytiri.jpg);
+  background-position: center;
+}
+
+.strong-mini5 p {
+  background-color: hsla(194,71%,45%,0.4);
+}
+
+.strong-mini6 {
+  background-image: url(../img/trinity.jpg);
+}
+
+.strong-mini6 p {
+  background-color: hsla(110,100%,49%,0.4);
+}
+
+.caja-extendida5 {
+  background-color: hsl(200,70%,44%);
+  flex: 1;
+}
+
+.caja-extendida6 {
+  background-color: hsl(110,78%,40%);
+  flex: 1;
+}
+
+.zoe .perfil .avatar2 img {
+  width: 220px;
+  left: -60px;
+  top: -10px;
+}
+
+.zoe .derecha .cita {
+  margin-top: 53px;
+}
+
+.carrie .perfil .avatar2 img {
+  width: 280px;
+  left: -90px;
+}
+
+.carrie .derecha .cita {
+  margin-top: 33px;
+}
+
+.zoe {
+  background-color: hsl(200,70%,44%);
+}
+
+.carrie {
+  background-color: hsl(110,78%,40%);
+}
+
+/* TABLET */
+
+@media screen and (max-width: 1024px) {
+  header p, .pink p, .red p, .green p {
+    width: 95%;
+  }
+
+  header, .strong-grande1, .strong-grande2, .strong-grande3 {
+    height: 500px;
+  }
+
+  header h1, .strong-grande1 p, .strong-grande2 p, .strong-grande3 p {
+    font-size: 110px;
+    letter-spacing: 20px;
+  }
+
+  .proposito h2, .difundir h2, .fuerte h2 {
+    font-size: 50px;
+    padding: 20px;
+  }
+
+  .proposito h3, .difundir h3, .fuerte h3 {
+    font-size: 40px;
+  }
+
+  .proposito p, .difundir p, .difundir p strong, .fuerte p {
+    font-size: 30px;
+  }
+
+  .caja {
+    flex-wrap: wrap;
+  }
+
+  .mitad {
+    max-width:  1024px;
+  }
+}
+
+/* MOBILE MEDIUM */
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 22px;
+  }
+
+  strong {
+    font-size: 30px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+    padding: 12px;
+  }
+
+  header, .strong-grande1, .strong-grande2, .strong-grande3 {
+    height: 420px;
+  }
+
+  .strong-grande1, .strong-grande2, .strong-grande3 {
+    background-position: center;
+  }
+
+  header p strong {
+    font-size: 22px;
+  }
+
+  header h1, .strong-grande1 p, .strong-grande2 p, .strong-grande3 p, .strong-mini1 p, .strong-mini2 p, .strong-mini3 p, .strong-mini4 p, .strong-mini5 p, .strong-mini6 p {
+    font-size: 60px;
+    letter-spacing: 15px;
+  }
+
+  header h1 {
+    margin-top: 80px;
+    margin-bottom: 30px;
+  }
+
+  .proposito h2, .difundir h2, .fuerte h2 {
+    font-size: 35px;
+    padding: 15px;
+  }
+
+  .proposito h3, .difundir h3, .fuerte h3 {
+    font-size: 30px;
+  }
+
+  .proposito p, .difundir p, .difundir p strong, .fuerte p {
+    font-size: 24px;
+  }
+
+  .difundir p, .fuerte p {
+    width: 90%;
+  }
+
+  .caja {
+    flex-wrap: wrap;
+  }
+
+  .linea {
+    border-left: none;
+    border-bottom: 2px solid #fff;
+    width: 200px;
+    height: 0;
+    margin: auto;
+    margin-top: 45px;
+    margin-bottom: 20px;
+  }
+
+  .proposito .container {
+    height: 690px;
+  }
+
+  .difundir .container {
+    height: 470px;
+  }
+
+  .fuerte .container {
+    height: 450px;
+  }
+
+  .proposito .honrar img, .proposito .grandeza img {
+    width: 80px;
+    height: 80px;
+    margin-top: 30px;
+    margin-bottom: -20px;
+  }
+
+  .proposito .honrar, .proposito .grandeza {
+    flex-basis: 100%;
+  }
+
+  .pink .cita, .red .cita, .green .cita {
+    margin-bottom: -45px;
+  }
+
+  .strong-mini1, .strong-mini2, .strong-mini3, .strong-mini4, .strong-mini5, .strong-mini6 {
+    height: 250px;
+  }
+
+  .strong-mini1 p, .strong-mini2 p, .strong-mini3 p, .strong-mini4 p, .strong-mini5 p, .strong-mini6 p {
+    font-size: 45px;
+    letter-spacing: 15px;
+    padding: 5px 0 5px 20px;
+    margin-bottom: 10px;
+  }
+
+  .pink .avatar, .red .avatar, .green .avatar {
+    width: 170px;
+    height: 170px;
+    margin-top: 35px;
+  }
+
+  .pink .avatar img {
+    width: 230px;
+    left: -30px;
+  }
+
+  .red .avatar img {
+    width: 230px;
+    left: -30px;
+  }
+
+  .green .avatar img {
+    width: 180px;
+    top: -40px;
+    left: -5px;
+  }
+
+  .pink h4, .red h4, .green h4 {
+    font-size: 26px;
+  }
+
+  .pink h5, .red h5, .red h5, .green h5 {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+
+  .pink .quote, .red .quote, .green .quote {
+    width: 68px;
+    height: 60px;
+  }
+
+  .pink p, .red p, .green p {
+    font-size: 22px;
+    margin-top: 30px;
+    width: 90%;
+  }
+
+  .pink .cita small, .pink small strong, .red .cita small, .red small strong, .green .cita small, .green small strong {
+    font-size: 16px;
+  }
+
+  .perfil .avatar2 {
+    width: 90px;
+    height: 90px;
+    margin-top: -10px;
+  }
+
+  .perfil h4 {
+    margin-bottom: -10px;
+    text-align: center;
+  }
+
+  .derecha p {
+    margin-top: 0;
+  }
+
+  .derecha img {
+    position: relative;
+    top:40px;
+    left: 10px;
+  }
+
+  .difundir img {
+    width: 90px;
+    height: 90px;
+    margin-top: 50px;
+  }
+
+  .fuerte img {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+  }
+
+  .uma .perfil .avatar2 img {
+    width: 160px;
+    left: -52px;
+    top: -17px;
+  }
+
+  .charlize .perfil .avatar2 img {
+    width: 210px;
+    left: -55px;
+    top: 0px;
+  }
+
+  .sigourney .perfil .avatar2 img {
+    width: 150px;
+    left: -36px;
+    top: -28px;
+  }
+
+  .jennifer .perfil .avatar2 img {
+    width: 155px;
+    left: -25px;
+    top: -15px;
+  }
+
+  .zoe .perfil .avatar2 img {
+    width: 176px;
+    left: -55px;
+    top: -10px;
+  }
+
+  .carrie .perfil .avatar2 img {
+    width: 220px;
+    left: -70px;
+    top: -3px;
+  }
+}
+
+/* MOBILE SMALL */
+
+@media screen and (max-width: 320px) {
+  nav ul li a {
+    font-size: 17px;
+    padding: 10px;
+  }
+
+  header h1, .strong-grande1 p, .strong-grande2 p, .strong-grande3 p, .strong-mini1 p, .strong-mini2 p, .strong-mini3 p, .strong-mini4 p, .strong-mini5 p, .strong-mini6 p {
+    font-size: 45px;
+    letter-spacing: 15px;
+  }
+
+  header, .header .transparencia {
+    height: 380px;
+  }
+
+  .proposito .container {
+    height: 650px;
+  }
+
+  .perfil .avatar2 {
+    border: 5px solid #fff;
+  }
+
+  .mitad2 h4 {
+    font-size: 15px;
+  }
+
+  .proposito h2, .difundir h2, .fuerte h2 {
+    font-size: 30px;
+    padding: 13px;
+  }
+
+  .proposito h3, .difundir h3, .fuerte h3 {
+    font-size: 28px;
+  }
+
+  .proposito p, .difundir p, .difundir p strong, .fuerte p {
+    font-size: 22px;
+  }
+
+  .charlize {
+    height: 365px;
+  }
+
+  .jennifer {
+    height: 390px;
+  }
+
+  .sigourney {
+    height: 420px;
+  }
+
+  .derecha .cita {
+    margin-bottom: 15px;
+  }
+
+  .zoe {
+    height: 320px;
+  }
+}
